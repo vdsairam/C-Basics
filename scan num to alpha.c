@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-	int n;
-	printf("Enter a number (from 1-26)");
-	scanf("%d", &n);
-	printf("%c", n+96);
+	char ch;
+	printf("Enter a character(from A to Z):");
+	scanf("%c", &ch);
+	printf("%d", ch-64);
 }
